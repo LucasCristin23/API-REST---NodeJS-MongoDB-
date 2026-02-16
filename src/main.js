@@ -19,9 +19,9 @@ app.use(express.json())
 
 app.use('/api/auth', authRouter)
 
-app.use(authorizationMiddleware) // A partir de aca todas las rutas van a requerir autorizacion
-app.use('/api/products', productRouter)
-app.use('/api/chat', chatRouter)
+// app.use(authorizationMiddleware) // A partir de aca todas las rutas van a requerir autorizacion
+app.use('/api/products', authorizationMiddleware,productRouter)
+app.use('/api/chat',authorizationMiddleware, chatRouter)
 
 app.listen(
     ENVIRONMENT.PORT,

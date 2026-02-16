@@ -22,8 +22,8 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 * MongoDB instalado o una cuenta en MongoDB Atlas
 
 ### 2. Configuración
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-repo.git`
-2. Entra a la carpeta: `cd tu-repo`
+1. Clona el repositorio: `git clone https://github.com/LucasCristin23/API-REST---NodeJS-MongoDB-`
+2. Entra a la carpeta: `cd API-REST---NodeJS-MongoDB-`
 3. Instala las dependencias: `npm install`
 
 ### 3. Variables de Entorno
